@@ -19,7 +19,7 @@ export class RandomColorsService {
   }
 
   private getRandomColor(): string {
-      return parseInt((Math.random() * 255 + 1).toString(), 16).toString();
+      return (Math.floor(Math.random() * 255) + 1).toString(16);
   }
 
 }

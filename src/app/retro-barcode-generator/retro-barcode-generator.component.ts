@@ -17,7 +17,7 @@ export class RetroBarcodeGeneratorComponent implements OnInit {
   }
 
   refresh() {
-
+    this.colors = this.randomColors.getArrayOfColors();
   }
 
 }
